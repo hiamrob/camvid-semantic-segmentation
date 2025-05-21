@@ -4,9 +4,9 @@
 
 This repository contains the code and experiments for a semantic segmentation task on the [CamVid dataset](http://mi.eng.cam.ac.uk/research/projects/VideoRec/CamVid/). We implemented and compared several approaches, including:
 
-* A custom UNet-inspired architecture from scratch
-* A MobileNetV2-based model with transfer learning
-* DeepLab using ResNet and ASPP (Atrous Spatial Pyramid Pooling)
+* A custom **UNet**-inspired architecture from scratch
+* A **MobileNetV2**-based model with transfer learning
+* **DeepLab** using ResNet and ASPP (Atrous Spatial Pyramid Pooling)
 
 ## Dataset
 * **Total images**: 701
@@ -60,9 +60,9 @@ This repository contains the code and experiments for a semantic segmentation ta
 
 | Model       | Mean IoU |
 | ----------- | -------- |
+| **DeepLab**     | **0.5242**   |
 | UNet        | 0.4507   |
 | MobileNetV2 | 0.3836   |
-| DeepLab     | 0.5242   |
 
 * DeepLab performed best due to its powerful feature extractor.
 * All models struggled with shadowed regions and fine-grained class distinctions.
